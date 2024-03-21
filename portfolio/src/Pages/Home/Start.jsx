@@ -3,9 +3,9 @@ export default function Start() {
         <section id="startSection" className="startSec">
             <div className="startSecDiv">
                 <div className="startSecContent">
-                    <p className="title">Olá, me chamo Bárbara</p>
-                    <h1>
-                        <span>FullStack</span>{" "}
+                    <p className="startTitle">Olá, me chamo Bárbara</p>
+                    <h1 className="title">
+                        <span className="titleColored">FullStack</span>{" "}
                         <br />
                         Developer
                     </h1>
