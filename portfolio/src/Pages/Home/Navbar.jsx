@@ -35,8 +35,18 @@ function Navbar(){
     }, [])
 
     return(
-        <nav>
-            
+        <nav className={`navbar ${navActive? "active" : ""}`}>
+            <div>
+                <img src="./img/logo" alt="Logo" />
+            </div>
+            <a className={`navHamburguer ${navActive? "active" : ""}`} onClick={toggleNav}>
+                <span className="navHamburguerLine"></span>
+                <span className="navHamburguerLine"></span>
+                <span className="navHamburguerLine"></span>
+            </a>
+            <div></div>
         </nav>
     )
 }
+
+export default Navbar;
