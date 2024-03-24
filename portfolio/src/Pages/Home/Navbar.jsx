@@ -44,7 +44,64 @@ function Navbar(){
                 <span className="navHamburguerLine"></span>
                 <span className="navHamburguerLine"></span>
             </a>
-            <div></div>
+            <div className={`navbarItems ${navActive ? "active" : ""}`}>
+                <ul>
+                    <li>
+                        <Link 
+                            onClick={closeMenu} 
+                            activeClass="navbarActiveContent"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                            to="startSection"
+                            className="navbarContent"
+                        >
+                            Home
+                        </Link> 
+                    </li>
+                    <li>
+                        <Link 
+                            onClick={closeMenu} 
+                            activeClass="navbarActiveContent"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                            to="myProjects"
+                            className="navbarContent"
+                        >
+                            Meus Projetos
+                        </Link> 
+                    </li>
+                    <li>
+                        <Link 
+                            onClick={closeMenu} 
+                            activeClass="navbarActiveContent"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                            to="aboutMe"
+                            className="navbarContent"
+                        >
+                            Sobre
+                        </Link> 
+                    </li>
+                </ul>
+            </div>
+            <Link 
+                onClick={closeMenu} 
+                activeClass="navbarActiveContent"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                to="contact"
+                className="btn btn-outline-primay"
+            >
+                Contato
+            </Link> 
         </nav>
     )
 }
