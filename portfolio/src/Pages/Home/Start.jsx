@@ -3,7 +3,7 @@ export default function Start() {
         <section id="startSection" className="startSec">
             <div className="startSecDiv">
                 <div className="startSecContent">
-                    <p className="startTitle">Olá, me chamo Bárbara</p>
+                    <p className="sectionTitle">Olá, me chamo Bárbara</p>
                     <h1 className="title">
                         <span className="titleColored">FullStack</span>{" "}
                         <br />

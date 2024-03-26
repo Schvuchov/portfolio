@@ -136,7 +136,8 @@ h3 {
 
 
 /* Section Titles */
-.section--title {
+/* section--title  */
+.sectionTitle {
   color: var(--heading-color);
   font-size: 21px;
   text-align: center;
@@ -147,7 +148,8 @@ h3 {
   align-items: flex-start;
 }
 
-.sub--title {
+/* sub--title  */
+.subTitle {
   color: var(--heading-color);
   font-size: 16px;
   font-weight: 600;
@@ -156,9 +158,50 @@ h3 {
 
 
 
+
+
+/* navbar style*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 85.333px;
+  background: var(--white);
+  box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.navbarItems > ul {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 42.667px;
+  text-decoration: none;
+}
+.navbarItems ul > li > a {
+  text-decoration: none;
+}
+
+.navbarContent{
+  color: var(--darkblue);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  cursor: pointer;
+}
+.navbarActiveContent {
+  color: var(--primary);
+}
+
+
+
+
+
 /* section Start*/
 
-/*hero--section*/
 .startSec {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -169,7 +212,6 @@ h3 {
   background-color: var(--bg-shade);  
 }
 
-/*hero--section--content--box*/
 .startSecDiv{
   display: flex;
   flex-direction: column;
@@ -177,7 +219,6 @@ h3 {
   gap: 32px;
 }
 
-/*hero--section--content*/
 .startSecContent{
   display: flex;
   flex-direction: column;
@@ -189,7 +230,6 @@ h3 {
   margin-top: 21.333px;
 }
 
-/*hero--section--title*/
 .title{
   color: var(--heading-color);
   font-size: 74.667px;
@@ -198,12 +238,10 @@ h3 {
   align-self: stretch;
 }
 
-/*hero--section-title--color*/
 .titleColored{
   color: var(--primary);
 }
 
-/*hero--section-description*/
 .description{
   color: var(--darkblue);
   font-size: 24px;
@@ -211,7 +249,6 @@ h3 {
   line-height: 36px;
 }
 
-/*hero--section--img*/
 .startSecImg{
   display: flex;
 }

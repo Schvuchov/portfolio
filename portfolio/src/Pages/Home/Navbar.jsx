@@ -68,10 +68,10 @@ function Navbar(){
                             smooth={true}
                             offset={-70}
                             duration={500}
-                            to="myProjects"
+                            to="aboutMe"
                             className="navbarContent"
                         >
-                            Meus Projetos
+                            Sobre
                         </Link> 
                     </li>
                     <li>
@@ -82,10 +82,10 @@ function Navbar(){
                             smooth={true}
                             offset={-70}
                             duration={500}
-                            to="aboutMe"
+                            to="myProjects"
                             className="navbarContent"
                         >
-                            Sobre
+                            Meus Projetos
                         </Link> 
                     </li>
                 </ul>
@@ -98,7 +98,7 @@ function Navbar(){
                 offset={-70}
                 duration={500}
                 to="contact"
-                className="btn btn-outline-primay"
+                className="btn btn-outline-primary"
             >
                 Contato
             </Link> 
