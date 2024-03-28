@@ -257,3 +257,35 @@ h3 {
   width: 100%;
   height: 100%;
 }
+
+
+
+
+/* section MySkills*/
+
+/* skills--section*/
+.skillsSection{}
+
+/*portfolio--container */
+.skillsSectionContainer{}
+
+/* skills--section--heading*/
+.skillsSectionHeading{}
+
+/* skills--section--container*/
+.skillsContainerContent{}
+
+/*skills-section--card */
+.skillsCard{}
+
+/*skills--section--img*/
+.skillsImg{}
+
+/*skills--section--card--content*/
+.skillsCardContent{}
+
+/*skills--section--title*/
+.skillsCardTitle{}
+
+/*skills--section--description*/
+.skillsCardDescrip{}
